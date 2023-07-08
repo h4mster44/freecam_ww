@@ -27,7 +27,7 @@ function disableFreecam() {
 }
 
 function moveFreecam() {
-  const speed = 0.4;
+  const speed = 0.1;
   const rotationSpeed = 0.00000001;
   let [x, y, z] = GetEntityCoords(prop);
   let [pitch, roll, yaw] = GetGameplayCamRot(2);
